@@ -1,8 +1,8 @@
-const createRoot = __vite__cjsImport0_reactDom_client["createRoot"];const _jsxDEV = __vite__cjsImport3_react_jsxDevRuntime["jsxDEV"];import * as __vite__cjsImport0_reactDom_client from "react-dom/client";
+const createRoot = __vite__cjsImport0_reactDom_client["createRoot"];const _jsxDEV = __vite__cjsImport3_react_jsxDevRuntime["jsx"];import * as __vite__cjsImport0_reactDom_client from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 var _jsxFileName = "/app/applet/src/main.tsx";
-import * as __vite__cjsImport3_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport3_react_jsxDevRuntime from "react/jsx-runtime";
 createRoot(document.getElementById("root")).render(/* @__PURE__ */ _jsxDEV(App, {}, void 0, false, {
 	fileName: _jsxFileName,
 	lineNumber: 5,

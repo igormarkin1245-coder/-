@@ -1,7 +1,7 @@
-const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsxDEV"]; const _Fragment = __vite__cjsImport2_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsx"]; const _Fragment = __vite__cjsImport2_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
 import { ZoomIn, ZoomOut, Maximize, Minimize, Crosshair, Scan, MapPin, Lock, Unlock } from "lucide-react";
 var _jsxFileName = "/app/applet/src/components/TacticalHud.tsx";
-import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-runtime";
 export const TacticalHud = ({ zoom, onZoomIn, onZoomOut, onResetZoom, onFitMap, cursorWorldPos, isAdmin, onToggleAdminPanel, showAdminPanel, accentColor, keyLocations, onSelectKeyLocation }) => {
 	const [isFullscreen, setIsFullscreen] = React.useState(false);
 	const [showLocationList, setShowLocationList] = React.useState(false);

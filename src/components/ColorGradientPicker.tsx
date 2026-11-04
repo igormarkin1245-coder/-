@@ -1,7 +1,7 @@
-const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsxDEV"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsx"];import * as __vite__cjsImport0_react from "react";
 import { Palette, Sparkles, Sliders } from "lucide-react";
 var _jsxFileName = "/app/applet/src/components/ColorGradientPicker.tsx";
-import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-runtime";
 const FACTION_PRESETS = [
 	{
 		name: "NCR Изумруд",

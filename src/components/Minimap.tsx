@@ -1,7 +1,7 @@
-const React = __vite__cjsImport0_react; const useRef = __vite__cjsImport0_react["useRef"];const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsxDEV"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react; const useRef = __vite__cjsImport0_react["useRef"];const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsx"];import * as __vite__cjsImport0_react from "react";
 import { Compass, Eye, EyeOff } from "lucide-react";
 var _jsxFileName = "/app/applet/src/components/Minimap.tsx";
-import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-runtime";
 export const Minimap = ({ imageSrc, mapWidth, mapHeight, viewX, viewY, viewZoom, containerWidth, containerHeight, octagons, onNavigate, accentColor }) => {
 	const [isOpen, setIsOpen] = React.useState(true);
 	const minimapRef = useRef(null);

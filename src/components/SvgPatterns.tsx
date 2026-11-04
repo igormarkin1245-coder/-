@@ -1,6 +1,6 @@
-const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime["jsxDEV"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime["jsx"];import * as __vite__cjsImport0_react from "react";
 var _jsxFileName = "/app/applet/src/components/SvgPatterns.tsx";
-import * as __vite__cjsImport1_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport1_react_jsxDevRuntime from "react/jsx-runtime";
 export const SvgDefs = ({ octagons, labels, accentColor }) => {
 	// Extract all unique gradients from octagons
 	const octagonGradients = Object.values(octagons).filter((o) => o.isGradient);

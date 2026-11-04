@@ -1,4 +1,4 @@
-const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"]; const useEffect = __vite__cjsImport0_react["useEffect"]; const useRef = __vite__cjsImport0_react["useRef"]; const useCallback = __vite__cjsImport0_react["useCallback"];const _jsxDEV = __vite__cjsImport11_react_jsxDevRuntime["jsxDEV"];/**
+const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"]; const useEffect = __vite__cjsImport0_react["useEffect"]; const useRef = __vite__cjsImport0_react["useRef"]; const useCallback = __vite__cjsImport0_react["useCallback"];const _jsxDEV = __vite__cjsImport11_react_jsxDevRuntime["jsx"];/**
 * @license
 * SPDX-License-Identifier: Apache-2.0
 */
@@ -14,7 +14,7 @@ import { Minimap } from "./components/Minimap.tsx";
 import { KeyLocationTooltip } from "./components/KeyLocationTooltip.tsx";
 import { KeyLocationModal } from "./components/KeyLocationModal.tsx";
 var _jsxFileName = "/app/applet/src/App.tsx";
-import * as __vite__cjsImport11_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport11_react_jsxDevRuntime from "react/jsx-runtime";
 const MAP_IMAGE_URL = "/assets/aistudio/5195356406373096378_fefdb8d0.jpg";
 const STORAGE_KEY = "tactical_rp_campaign_v3";
 const ADMIN_PASSWORD = "DTDT228";

@@ -1,7 +1,7 @@
-const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"];const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsxDEV"]; const _Fragment = __vite__cjsImport2_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"];const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsx"]; const _Fragment = __vite__cjsImport2_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
 import { X, Shield, Upload, Check, Trash2, MapPin, Link as LinkIcon } from "lucide-react";
 var _jsxFileName = "/app/applet/src/components/KeyLocationModal.tsx";
-import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-runtime";
 const PRESET_IMAGES = [
 	{
 		name: "Военный Бункер",

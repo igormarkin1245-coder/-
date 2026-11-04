@@ -1,7 +1,7 @@
-const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"];const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsxDEV"]; const _Fragment = __vite__cjsImport2_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"];const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsx"]; const _Fragment = __vite__cjsImport2_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
 import { Move, RotateCw, Trash2, Edit3, Maximize2 } from "lucide-react";
 var _jsxFileName = "/app/applet/src/components/MapLabelItem.tsx";
-import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-runtime";
 export const MapLabelItem = ({ label, isSelected, isAdmin, zoom, onSelect, onUpdate, onDelete }) => {
 	const [isEditingInline, setIsEditingInline] = useState(false);
 	const [tempText, setTempText] = useState(label.text);

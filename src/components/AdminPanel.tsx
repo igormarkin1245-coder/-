@@ -1,9 +1,9 @@
-const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"];const _jsxDEV = __vite__cjsImport4_react_jsxDevRuntime["jsxDEV"]; const _Fragment = __vite__cjsImport4_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react; const useState = __vite__cjsImport0_react["useState"];const _jsxDEV = __vite__cjsImport4_react_jsxDevRuntime["jsx"]; const _Fragment = __vite__cjsImport4_react_jsxDevRuntime["Fragment"];import * as __vite__cjsImport0_react from "react";
 import { ColorGradientPicker } from "./ColorGradientPicker.tsx";
 import { generateProjectZip } from "../utils/projectZip.ts";
 import { Lock, Unlock, Paintbrush, Type, Eraser, Compass, Download, Upload, RotateCcw, ChevronRight, ChevronDown, Sparkles, ArrowRight, AlertTriangle, HelpCircle, Copy, Check, FileArchive, Share2 } from "lucide-react";
 var _jsxFileName = "/app/applet/src/components/AdminPanel.tsx";
-import * as __vite__cjsImport4_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport4_react_jsxDevRuntime from "react/jsx-runtime";
 const FONT_OPTIONS = [
 	{
 		id: "Orbitron",

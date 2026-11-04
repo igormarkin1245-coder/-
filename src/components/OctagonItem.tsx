@@ -1,7 +1,7 @@
-const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsxDEV"];import * as __vite__cjsImport0_react from "react";
+const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport2_react_jsxDevRuntime["jsx"];import * as __vite__cjsImport0_react from "react";
 import { getOctagonPoints } from "../utils/octagon.ts";
 var _jsxFileName = "/app/applet/src/components/OctagonItem.tsx";
-import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-dev-runtime";
+import * as __vite__cjsImport2_react_jsxDevRuntime from "react/jsx-runtime";
 export const OctagonItem = ({ cell, radius, isSelected, isHovered, onMouseEnter, onMouseLeave, onClick, onContextMenu }) => {
 	const points = getOctagonPoints(cell.cx, cell.cy, radius);
 	// Fill resolution
